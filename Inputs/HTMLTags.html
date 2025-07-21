@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>HTML Tags</title>
+    </head>
+    <body>
+      <h1>JavaScript Tutorial</h1>
+      <p>Input data using HTMl tags</p>
+      <input type="text" id="username" placeholder="Enter your name please!">
+      <button onclick="getName()">Send</button>
+      <!--JavaScript code-->
+      <script>
+        function getName() {
+          let name = document.getElementById("username").value;
+          alert("Hi " + name);
+        }
+      </script>
+    </body>
+  </html>
